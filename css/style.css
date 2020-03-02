@@ -1,0 +1,112 @@
+body {
+	margin:0;
+}
+.cont {
+	margin:0;
+	background-color: #ffff;
+	height:635px;
+	width:100%;
+}
+.logo {
+	width:260px;
+	height:100px;
+	padding:30px;
+	display:inline-block;
+}
+.content ul {
+	list-style: none;
+	display: inline;
+	float:right;
+	margin-right:40px;
+	margin-top: 60;
+}
+.content ul li {
+	display: inline;
+	margin-right:40px;
+}
+.content ul li:hover {
+	text-decoration: underline;
+}
+.content ul li a {
+	text-decoration:none;
+	color:white;
+	font-size: 20px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.content h1{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:white;
+	font-size: 45px;
+}
+.content p {
+	width: 600px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:white;
+	text-align: justify;
+}
+
+/*FOR SUB CONTENT*/
+
+.subcont {
+	margin:0;
+	background-color: #ffff;
+	height:435px;
+	width:100%;
+}
+
+.subcont h1{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:white;
+	font-size: 45px;
+	display: inline-block;
+	margin-top: 100px;
+	margin-left:560px;
+}
+.subcont p {
+	width: 600px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:white;
+	text-align: justify;
+	display: inline-block;
+	margin-left:560px;
+}
+
+/*FOR QUIZ*/
+#quiz {
+ 	padding: 20px;
+}
+.question{
+    font-weight: 600;
+    margin-left: 150px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.answers {
+    margin-left: 150px;
+    margin-bottom: 30px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#results {
+	font-size: 40px;
+	background-color: #ec6b61;
+    display: inline-block;
+    margin-left: 20px;
+    padding:10px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+
+}
+#submit{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: #297;
+    color: #fff;
+    border: 0px;
+    border-radius: 3px;
+    padding: 20px;
+    cursor: pointer;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+#submit:hover{
+    background-color: #3a8;
+}
